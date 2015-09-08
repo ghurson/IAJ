@@ -159,6 +159,7 @@ class Config {
 
 
 
+        wp_enqueue_script( 'lightbox', NV_JS . '/jquery.lightbox.js', array( 'jquery' ), false, true );
         wp_enqueue_script( 'fancybox', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js', array( 'foundation' ), false, true );
         wp_enqueue_script( 'cycle', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140415/jquery.cycle2.min.js', array( 'foundation' ), false, true );
 

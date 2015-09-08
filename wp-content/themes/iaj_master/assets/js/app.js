@@ -17,7 +17,7 @@
 
     $(document).ready(function(){
 
-        $(".iaj_gallery_thumb").fancybox();
+        //$(".iaj_gallery_thumb").lightbox();
 
         $(".wpcf7-list-item:first-child label").addClass("selected");
         $(".wpcf7-list-item label").each(function(){

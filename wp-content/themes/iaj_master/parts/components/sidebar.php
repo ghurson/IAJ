@@ -1,5 +1,5 @@
 <div id="right_bar">
-    <div id="sidebar">
+    <div id="sidebar" class="hide-for-small-down">
         <?php wp_nav_menu(array('depth' => '1')); ?>
     </div>
     <!--#sidebar-->

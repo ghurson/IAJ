@@ -100,6 +100,10 @@ BODY
     margin-top: 25px;
 }
 
+#jer_media_box .embed-container {
+    margin: 0;
+}
+
 #jer_front_video {
     display: block;
     position: relative;
@@ -115,6 +119,11 @@ BODY
     padding-bottom: 1em;
 }
 
+.mobile-menu #sidebar {
+    margin-top: 30px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
 
 /*@group Navigation*/
 #sidebar
@@ -1282,10 +1291,11 @@ INPUT#formCommentor
     width: 100%;
     float: left;
     /*margin-bottom: 1.4em;*/
+    text-align: center;
 }
 .wpcf7-radio .wpcf7-list-item
 {
-    width: 48%;
+    width: 40%;
     text-align: center;
     display: inline-block;
 }
@@ -1328,7 +1338,7 @@ INPUT#formCommentor
 }
 .wpcf7-radio LABEL.selected
 {
-    background: #C2C2C2;
+    background: #868686;
     color: #FFCC00;
 }
 .wpcf7-form .business
@@ -1340,6 +1350,13 @@ INPUT#formCommentor
     width: 100%;
     float: left;
     margin-bottom: 1em;
+}
+
+.wpcf7-form textarea {
+    font-size: .8em;
+    line-height: 1.5em;
+    text-indent: 0;
+    padding: 15px;
 }
 
 .iaj_gallery_title {
@@ -1366,11 +1383,10 @@ INPUT#formCommentor
 
 .iaj_video_title {
     text-align: center;
-    width: 690px;
-    display: block ;
     font-family: "lilita one",;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 30px 0 0;
+    font-size: 1em;
+    line-height: 1em;
 }
 
 #iaj_video_nav a {
@@ -1454,6 +1470,7 @@ INPUT#formCommentor
     overflow: hidden;
     max-width: 100%;
     height: auto;
+    margin: 30px 0 0;
 }
 
 .embed-container iframe,
@@ -1464,4 +1481,13 @@ INPUT#formCommentor
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.top-bar {
+
+
+}
+
+.top-bar .menu {
+
 }
