@@ -1,0 +1,18 @@
+$blue: #0097CB;
+$orange: #FF6413;
+$red: #D71F00;
+$yellow: #FFCE00;
+
+.iaj-header-row {
+  padding-top: 15px;
+}
+
+
+@media #{$small-only} {
+
+  body {
+    background-position: center center !important;
+    background-attachment: fixed !important;
+  }
+
+}
